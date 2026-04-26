@@ -1,0 +1,18 @@
+[tool.poetry]
+package-mode = false
+
+[project]
+name = "bias-simulation"
+version = "0.1.0"
+description = "Recruitment bias detector & LLM-based ATS bias simulation"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+
+dependencies = [
+    "boto3",
+    "streamlit",
+]
+
+[project.scripts]
+bias-sim = "cv_analyzer.app:main"

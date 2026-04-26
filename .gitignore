@@ -1,0 +1,10 @@
+# uv lock file (contains Alliander JFrog artifactory references)
+cv_analyzer/uv.lock
+
+# Environment
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
