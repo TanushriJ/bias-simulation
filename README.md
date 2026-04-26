@@ -1,6 +1,6 @@
 # Recruitment Bias Detector & ATS Bias Simulation
 
-Exposes how AI-powered hiring systems filter candidates based on bias signals — not merit. Built with Streamlit and Claude on Amazon Bedrock.
+Exposes how AI-powered hiring systems filter candidates based on bias signals not merit. Built with Streamlit and Claude on Amazon Bedrock.
 
 ## Demo
 
@@ -8,12 +8,15 @@ Exposes how AI-powered hiring systems filter candidates based on bias signals �
 
 ### Single Document Analysis
 <!-- Paste a CV or JD → get a bias risk score with research-backed findings -->
-![Single document analysis demo](assets/demo-analysis.gif)
+<img width="800" height="440" alt="part1" src="https://github.com/user-attachments/assets/e341f5f6-6e13-49b0-b451-c1ff6dae0550" />
 
 ### CV Bias Simulation
 <!-- Two CVs + one JD → simulates an LLM-based ATS and exposes whether the score gap is merit or bias -->
-![CV bias simulation demo](assets/demo-simulation.gif)
+<img width="800" height="394" alt="part2" src="https://github.com/user-attachments/assets/d5d421cc-7661-44e9-9190-e83ab99bae59" />
 
+
+### Job description Advise
+<img width="800" height="394" alt="ScreenRecording2026-04-26at15 21 28-ezgif com-video-to-gif-converter" src="https://github.com/user-attachments/assets/25ce0ba1-befb-464d-8553-f8b6cc5911ef" />
 ## What it does
 
 | Mode | Input | Output |
